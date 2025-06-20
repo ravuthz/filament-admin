@@ -1,8 +1,8 @@
 ```bash
 
-laravel new scanner-api --api --git --phpunit --database=sqlite
+laravel new admin-api --api --git --phpunit --database=sqlite
 
-cd scanner-api
+cd admin-api
 
 php artisan install:api --passport
 # uuids: yes
